@@ -4,4 +4,4 @@ umidade = int(input("Digite a umidade loca"))
 if umidade >= 70%
        print("Alerta umidade ultrapassou 70%")
 else:
-       ptint       
+       ptint
