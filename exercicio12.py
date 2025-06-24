@@ -1,2 +1,2 @@
-# Rafael trabalha com armazenamento de grãos e precisa garantir que a umidade do ar no local não ultrapasse 70%.
-# Escreva um programa que receba o valor da umidade atual e exiba um alerta se estiver acima do limite.
+#Peça ao usuário uma senha e verifique se ela contém pelo menos 8 caracteres.
+#Exiba uma mensagem de "Senha válida" ou "Senha muito curta".
