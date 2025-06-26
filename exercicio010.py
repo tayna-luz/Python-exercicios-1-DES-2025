@@ -8,6 +8,10 @@ parcela = float(input("digite o valor da parcela dos fumcionamentos: R$"))
 
 if salario <= 3000:
     print("financiamento negado, salario abaixo do minimo exigido.")
+elif parcela > salario * 0.35:
+    print(" financiamento negado, parcela acima de 35% do salario.") 
+else:
+     print("financiamento aprovado !")        
     
 
 
