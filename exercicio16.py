@@ -1,15 +1,12 @@
-#Crie um programa que calcule o reajuste de salário:
 
-#Salários até R$ 2000,00: +15%
-#De R$ 2000,01 a R$ 5000,00: +10%
-#Acima de R$ 5000,00: +5%
+salario_atual_str = input("Digite o valor do salário atual: R$ ")
+salario_atual = float(salario_atual_str)
 
-salario = 2.00000 +15
-if ("2.000 +15% 5.000 + 18"):
-else:
-    int("Acima de  $ 5.000: 5% ")
-    if("digite o valor do salario"):
-     if("5.0000"):
+if salario_atual <= 2000.00:
+ percentual_reajuste = 0.15  # 15%
+elif 2000.01 <= salario_atual <= 5000.00:
+ percentual_reajuste = 0.10  # 10%
+else:  # salario_atual > 5000.00
+ percentual_reajuste = 0.05  # 5%
 
-
-
+        
