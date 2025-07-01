@@ -1,6 +1,6 @@
 
 salario_atual_str = input("Digite o valor do salário atual: R$ ")
-salario_atual = float(salario_atual_str)
+salario_atual = float(salario_atual)
 
 if salario_atual <= 2000.00:
  percentual_reajuste = 0.15  # 15%
